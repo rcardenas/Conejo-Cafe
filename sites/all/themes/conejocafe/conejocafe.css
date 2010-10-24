@@ -33,7 +33,7 @@
   {
     margin: 0;
     padding: 0px;
-	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-family: Helvetica, Arial, Geneva, sans-serif;
 	color: #333333;
 	background-color: #FFFFFF;
 }
@@ -874,6 +874,18 @@ a:hover
 {
 	font-size: 18px;
 	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+#content-header
+{
+	display: none;
+}
+.section-video #content-header
+{
+	display:block;
+	margin-left:75px;
+	margin-top:20px;
 }
 .view-id-videos .views-field-title
 {
@@ -1003,4 +1015,19 @@ html[xmlns] .view-id-videos .views-row {
  
 * html .view-id-videos .views-row {
 	height: 1%;
+}
+
+.view-videos .views-row
+{
+	border: none;
+	float: left;
+	margin-right: 60px;
+}
+.view-videos img
+{
+	opacity: 0.5;
+}
+.view-videos img:hover
+{
+	opacity: 1;
 }
